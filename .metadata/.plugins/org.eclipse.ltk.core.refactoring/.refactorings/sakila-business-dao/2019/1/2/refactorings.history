@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;isep.web.sakila.dao.repositories&apos; to &apos;sakila-business-webapi/src/main/java&apos;&#x0A;- Original project: &apos;sakila-business-dao&apos;&#x0A;- Destination element: &apos;sakila-business-webapi/src/main/java&apos;&#x0A;- Original element: &apos;sakila-business-dao/src/main/java/isep.web.sakila.dao.repositories&apos;" description="Copy package" destination="=sakila-business-webapi/src\/main\/java" element1="/src\/main\/java&lt;isep.web.sakila.dao.repositories" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1546855941192" version="1.0"/>
+</session>
