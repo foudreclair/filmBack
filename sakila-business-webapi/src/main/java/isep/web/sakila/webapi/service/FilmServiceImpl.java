@@ -30,8 +30,8 @@ public class FilmServiceImpl implements FilmService {
 		List<FilmWO> films = new LinkedList<FilmWO>();
 
 		for (Film film : filmRepository.findAll()) {
-			System.out.println(film);
 			films.add(new FilmWO(film));
+			//System.out.println(film.getLanguage1().getLanguageId());
 			log.debug("Adding " + film);
 		}
 

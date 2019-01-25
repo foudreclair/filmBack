@@ -78,8 +78,8 @@ public class FilmWO extends WebObject
 	}
 
 
-	public void setLanguage1(Language language1) {
-		this.language1 = language1.getLanguageId();
+	public void setLanguage1(int language1) {
+		this.language1 = language1;
 	}
 
 
@@ -88,8 +88,8 @@ public class FilmWO extends WebObject
 	}
 
 
-	public void setLanguage2(Language language2) {
-		this.language2 = language2.getLanguageId();
+	public void setLanguage2(int language2) {
+		this.language2 = language2;
 	}
 
 
@@ -191,6 +191,9 @@ public class FilmWO extends WebObject
 		this.replacementCost = film.getReplacementCost();
 		this.rating = film.getRating();
 		this.specialFeatures = film.getSpecialFeatures();
+		this.language1 = film.getLanguage1().getLanguageId();
+		//this.language2 = film.getLanguage2().getLanguageId();
+	
 		
 	}
 
